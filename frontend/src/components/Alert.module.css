@@ -1,0 +1,13 @@
+.alert {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  border: 1px solid #d33;
+  border-radius: 6px;
+  background: #fdecec;
+}
+
+.message {
+  flex: 1;
+}

@@ -1,0 +1,33 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #555;
+}
+
+.input {
+  height: 36px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font: inherit;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #2f6fde;
+}
+
+.invalid {
+  border-color: #d33;
+}
+
+.error {
+  font-size: 13px;
+  color: #d33;
+}
